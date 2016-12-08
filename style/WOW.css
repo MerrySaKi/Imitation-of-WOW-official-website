@@ -1,0 +1,405 @@
+/*全局默认样式设置*/
+*{
+	margin: 0;
+	padding:0;
+}
+body{
+	background-color:#000;
+	width: 1920px;
+	font-family: "Microsoft Yahei";
+}
+ul,ol,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+/**
+ *通用样式
+ */
+
+
+
+
+/**
+ * html页面样式
+ */
+.bg_img{
+    position: absolute;
+	width: 100%;
+	height: 720px;
+	margin:0 auto;
+	background: url(../img/1.jpg) no-repeat;
+	background-position: top center;
+	z-index: -1;
+}
+.bg_container{
+	width: 100%;
+	height: 340px;
+	position: absolute;
+	top:680px;
+	margin: 0 auto;
+	background:url(../img/bg_container.jpg) no-repeat;
+	z-index: -1;
+}
+.container{
+	position: absolute;
+	width: 1200px;
+	height: 1320px;
+	top: 0;
+	left: 50%;
+    margin-left: -600px;
+    margin-top: 45px;
+}
+
+/*
+ *top_nav begin---
+ */
+
+.top_nav{
+	width: 100%;
+	background-color: rgb(32,20,14);
+}
+.top_nav ul li{
+    display: inline;
+    float: left;
+    text-align: center;
+    line-height: 70px;
+    background-color: rgb(32,20,14);
+    box-shadow: rgb(24,13,9) -2px -2px 40px;
+
+}
+
+.top_nav ul .top_nav_item,.top_nav ul .top_nav_logo{
+	border-top: 1px solid rgb(63,42,34);
+    border-bottom: 1px solid rgb(63,42,34);
+    border-left: 1px solid rgb(63,42,34);
+    height: 70px;
+}
+.top_nav ul .top_nav_item:nth-last-child(1){
+	border-right: 1px solid rgb(63,42,34);
+}
+.top_nav ul .top_nav_item{
+	width: 160px;
+}
+.top_nav ul .top_nav_logo{
+	width: 230px;
+}
+.top_nav ul li a{
+	color: rgb(248,183,1);
+	text-shadow:rgb(130,14,12) 0 0 5px;
+	font-weight: bold;
+}
+.top_nav .nav_logo{
+	width: 235px;
+	height: 153px;
+	background: url(../img/logo.png);
+	position: absolute;
+	top:-40px;
+	left: 50%;
+	margin-left:-118px;
+}
+
+/*
+  top_nav end---
+
+ * footer begin---
+ */
+
+.down_nav{
+   width: 100%;
+   height: 220px;
+   position: absolute;
+   bottom: 430px;
+}
+.down_nav .down_context{
+	width: 288px;
+	height: 220px;
+	float: left;
+	margin-right:16px;
+	background-color: rgb(36,23,18);
+}
+ .down_nav .down_context:nth-last-child(1){
+	float: right;
+	margin-right: 0;
+}
+.down_nav .down_context .context_text{
+	width: 288px;
+	height: 70px;
+	border-bottom:1px solid rgb(63,42,34);
+	line-height: 70px;
+	font-weight: bold;
+	color:rgb(248,183,1);
+	display: block;
+	text-align: center;
+	font-size: 18px;
+	text-shadow:rgb(130,14,12) 0 0 5px;
+}
+.down_nav .down_context div{
+	width: 288px;
+	height: 145px;
+	border-bottom:1px solid rgb(63,42,34);
+}
+.context_img1{
+	background: url(../img/eye_20160831.jpg);
+}
+.context_img2{
+	background: url(../img/eye_20160831_2.jpg);
+}
+.context_img3{
+	background: url(../img/eye_20160831_3.jpg);
+}
+.context_img4{
+	background: url(../img/landing20160930.jpg);
+}
+.footer{
+	position: absolute;
+	top:975px;
+	height: 338px;
+	width: 1100px;
+	left: 50%;
+	margin-left: -550px;
+}
+.footer .footer_main{
+	width: 100%;
+	padding:70px 0;
+}
+.footer .footer_down{
+	height: 300px;
+	width: 100%;
+}
+.footer .footer_main .footer_main_left{
+	float: left;
+
+}
+.footer .footer_main .footer_main_left li{
+    display: inline;
+    margin-right: 10px;
+}
+.footer .footer_main .footer_main_left li a{
+    color: rgb(167,167,167);
+    line-height: 14px;
+    font-size: 14px;
+    position: relative;
+    margin-right: 40px;
+    margin-left:25px;
+}
+.footer .footer_main .footer_main_left li i{
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	position: absolute;
+	left:-28px;
+	top:1px;
+}
+.footer .footer_main .custiom{
+	background: url(../img/icon.png);
+    background-position: -6px -7px;
+}
+.footer .footer_main .feedBack{
+	background: url(../img/icon.png);
+    background-position: -35px -7px;
+}
+.footer .footer_main .joinUs{
+	background: url(../img/icon.png);
+    background-position: -7px -33px;
+}
+
+.footer .footer_main .Brand_logo{
+	float: right;
+    display: inline-block;
+    position: relative;
+    line-height: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+.footer .footer_main .Brand_logo li{
+	display: inline;
+	position: relative;
+	right:50px;
+ }
+ .footer .footer_main .Brand_logo li a{
+ 	color:#fff;
+ }
+ .footer .footer_main .Brand_logo li span{
+ 	color:#fff;
+ }
+.footer .footer_main .Brand_logo .intel{
+	background: url(../img/business.png);
+    background-position: 0 0;
+    width: 36px;
+    height: 26px;
+    display:inline-block;
+    margin-bottom: -5px;
+}
+.footer .footer_main .Brand_logo .nvdia{
+	background: url(../img/business.png);
+    background-position:-36px 0;
+    width: 100px;
+    height: 26px;
+    display:inline-block;
+    margin-bottom: -5px;
+}
+.footer .footer_main .Brand_logo .plus{
+    background: rgb(32,20,14);
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border: 1px solid rgb(45,23,2);
+    position: relative;
+}
+ .footer .footer_main .Brand_logo .plus .plus_col{
+    width: 0;
+    height:8px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    margin-left: -1px;
+    margin-top: -5px;
+    border: 1px solid rgb(248,183,1)
+}
+  .footer .footer_main .Brand_logo .plus .plus_cow{
+   width: 8px;
+   height: 0px;
+   position: absolute;
+   top: 50%;
+   left:50%;
+   margin-left: -5px;
+   margin-top: -1px;
+   border: 1px solid rgb(248,183,1)
+ }
+.footer .footer_down{
+    height: 178px;
+}
+.footer .footer_down .footer_down_left{
+	padding-top: 30px;
+    width: 360px;
+    display: inline-block;
+}
+
+.footer .footer_down .footer_down_left .blizzard_logo{
+    background: url(../img/blizzard.png) no-repeat;
+    width: 140px;
+    height: 80px;
+    display: inline-block;
+}
+.footer .footer_down .footer_down_left .NetEase_logo{
+    background: url(../img/netnease.png) no-repeat;
+    width:125px;
+    height: 38px;
+    display: inline-block;
+    float: right;
+    margin-right: 50px;
+    margin-top: 42px;
+}
+
+.footer .footer_down .footer_down_right{
+    width: 720px;
+    height: 120px;
+    float: right;
+}
+.footer .footer_down .footer_down_right .footer_down_right_top{
+    list-style: none;
+}
+.footer .footer_down .footer_down_right .footer_down_right_top li{
+    display: inline;
+    margin-right: 15px;
+    font-size: 15px;
+}
+.footer .footer_down .footer_down_right .footer_down_right_top li a{
+    color: rgb(175,175,175);
+}
+
+
+/*
+  分线
+ */
+.footer .footer_down .footer_down_right .footer_down_right_top .float_black:after{
+	content: "";
+    width: 0;
+    height: 0;
+    border: .5px rgb(175,175,175) solid;
+    margin-left: 15px;
+}
+.footer .footer_down .footer_down_right .footer_down_right_mid li,.footer .footer_down .footer_down_right .footer_down_right_mid a{
+	color:rgb(71,71,71);
+	font-size: 12.5px;
+	margin-top: 8px;
+}
+
+/*
+  icon array
+ */
+.footer .footer_down .footer_down_right .footer_down_right_bottom{
+	width: 100%;
+	height: 30px;
+	margin-top: 8px;
+}
+.footer .footer_down .footer_down_right .footer_down_right_bottom li{
+	display: inline;
+	margin-right: 10px;
+}
+
+.footer .footer_down .footer_down_right .footer_down_right_bottom li a{
+    width: 27px;
+    height: 27px;
+    display: inline-block;
+}
+
+.footer .footer_down .footer_down_right .footer_down_right_bottom li .police{
+    background: url(../img/police.png) no-repeat;
+}
+.footer .footer_down .footer_down_right .footer_down_right_bottom li .zx-110{
+    background: url(../img/zx110.png) no-repeat;
+}
+.footer .footer_down .footer_down_right .footer_down_right_bottom li .sgs-icon{
+    background: url(../img/sgs-icon.png) no-repeat;
+}
+.footer .footer_down .footer_down_right .footer_down_right_bottom li .iconEmail{
+    background: url(../img/icon20120516.png) no-repeat;
+}
+
+/**
+ * footer begin
+ */
+
+footer{
+	width: 1752px;
+	height: 80px;
+	border-top: 1px solid rgb(26,26,26);
+	position: absolute;
+	top:1320px;
+	left:50%;
+	margin-left: -876px;
+    padding-top: 15px;
+}
+footer p{
+    text-align: center;
+    color:rgb(71,71,71);
+    font-size: 12.5px;
+    margin-top: 5px;
+}
+
+/**
+ *   css3 鼠标悬停事件样式；
+ */
+
+  .top_nav ul li a:hover,
+  .footer .footer_main .footer_main_left li a:hover,
+  .footer .footer_down .footer_down_right .footer_down_right_top li a:hover,
+  .footer .footer_down .footer_down_right .footer_down_right_mid a:hover {
+    color:rgb(255,255,255);
+}
+ .footer .footer_main .Brand_logo .plus a:hover > div{
+    border-color:rgb(255,255,255);
+}
+.active{
+	transform:translateY(-15px);
+	color:white;
+	cursor:pointer;
+}
+.down_context{
+	transition:all .5s ease;
+}
